@@ -1,0 +1,15 @@
+# 账号密码与个人数据，绝不入库
+config.json
+data.json
+report.html
+filter.json
+
+# 随程序附带的 Node 运行时（体积大，按需自备 Node 18+）
+bin/
+node_modules/
+
+# 调试残留
+_*.png
+_*.log
+_*.err
+*.tmp
